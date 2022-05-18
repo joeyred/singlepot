@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "files": [
-    "eslint-preset.js"
+    "eslint-preset.js",
+    "jest.base.js",
+    "vitest.base.js"
   ],
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
     "eslint-config-next": "^12.0.8",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "7.28.0"
