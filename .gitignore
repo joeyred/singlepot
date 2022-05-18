@@ -13,6 +13,9 @@ coverage
 out/
 build
 
+# packages - npm modules
+dist/
+
 # misc
 .DS_Store
 *.pem

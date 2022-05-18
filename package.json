@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-basic-shared",
+  "name": "singlepot",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -13,6 +13,9 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "hygen": "^6.2.0",
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
